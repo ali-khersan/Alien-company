@@ -1,0 +1,50 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@font-face {
+    font-family: Spartan-Regular;
+    src: url(../fonts/Spartan-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Spartan-Bold;
+    src: url(../fonts/Spartan-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Spartan-Light;
+    src: url(../fonts/Spartan-Light.ttf);
+    font-weight: 300;
+    font-style: normal;
+}
+
+* {
+    font-family: Spartan-Regular;
+}
+
+html {
+    background: #fcfbf4;
+}
+
+.logo > div > h4 {
+    color: #FF7D00;
+}
+
+.logo > div > h1 {
+    color: #2A2A2A;
+}
+
+.contact {
+    color: #2A2A2A;
+}
+
+nav .active {
+    color: #FC7F58;
+}
